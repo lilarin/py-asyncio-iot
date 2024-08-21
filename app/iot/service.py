@@ -2,7 +2,10 @@ import random
 import string
 from typing import Protocol
 
-from .message import Message, MessageType
+from .message import (
+    Message,
+    MessageType
+)
 
 
 def generate_id(length: int = 8) -> str:
